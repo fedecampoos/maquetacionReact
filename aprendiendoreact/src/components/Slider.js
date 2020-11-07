@@ -8,7 +8,11 @@ class Slaider extends Component {
 
             <div id="slider"  className="slider-big">
           <h1>{this.props.title}</h1>
-           <a href="#" className="btn-white"> {this.props.btn}</a>
+          
+          {this.props.title &&
+            <a href="#" className="btn-white"> {this.props.btn}</a>
+          }
+           
      </div>
 
         );

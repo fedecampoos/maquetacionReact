@@ -13,7 +13,13 @@ class Micomponente extends Component {
             <div className = "mi-componente">
             <h1>{ "nombre" + recetas.nombre }</h1>
             <h2>{"calorias "+ recetas.calorias}</h2>
-            <hr  />
+            
+            {this.props.saludo &&
+            <h3>{this.props.saludo}</h3>
+            
+            }
+            
+          
             
         <ol>
         {

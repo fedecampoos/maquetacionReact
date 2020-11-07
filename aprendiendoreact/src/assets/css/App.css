@@ -75,6 +75,10 @@ body{
 #menu a:hover{
   color: red;
 }
+.active{
+  border-bottom: 2px solid #61dafb;
+
+}
 #slider{
   width: 100%;
   background:#113 ;
